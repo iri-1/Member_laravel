@@ -1,0 +1,93 @@
+
+a {
+    /* 全てのリンクから下の下線を無しにする */
+    text-decoration: none;
+}
+h1 {
+    font-size: 32px;
+    margin: 16px 0;
+    padding-bottom: 8px;
+    text-align: center; /* 水平方向の中央揃え */
+    display: flex;
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: center; /* 水平方向の中央揃え */
+    height: 10vh; /* 要素の高さを画面の高さに合わせる */
+    border-bottom: 3px double black;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center; /* 水平方向の中央揃え */
+    display: flex;
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: center; /* 水平方向の中央揃え */
+
+}
+
+.regester {
+
+    font-size: 26px;
+    display: flex;
+    justify-content: right; /* 水平方向の中央揃え */
+    padding-right: 10%;
+
+}
+
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    text-align: left; /* 水平方向の中央揃え */
+    display: flex;
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: center; /* 水平方向の中央揃え */
+}
+
+td {
+    /* border: 1px solid #171616; セルの枠線を設定 */
+    border: 2px solid black; /* 周りに2pxの黒い線を設定 */
+    margin: 10px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 2px solid black; /* 周りに2pxの黒い線を設定 */
+}
+.form-group {
+    /* padding-left: 100px; */
+    display: block; /* インライン要素をブロック要素に変更 */
+    margin: 0 auto; /* 左右のmarginを自動に設定 */
+    margin-bottom: 46px;
+    width: 60%;
+    height: 50px;
+
+}
+
+input::placeholder {
+    opacity: 1; /* 透明度を100%にする */
+  }
+
+.form-button {
+    /* width: 70%; */
+    text-align: center;
+}
+
+button {
+
+    padding: 20pxx;
+    margin: 10px;
+    font-size: 16px;
+    width: 20em;
+    height: 3em;
+    border: 2px solid black; /* 周りに2pxの黒い線を設定 */
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+}
